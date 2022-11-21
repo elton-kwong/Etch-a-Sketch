@@ -1,0 +1,57 @@
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    height: 600px;
+    width: 600px;
+    display: grid;
+    border: 1px black solid;
+}
+
+.customize {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.buttons button {
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.size input {
+    height: 31px;
+    width: 192px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.size button {
+    height: 35px;
+    width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.error {
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    align-self: left;
+}

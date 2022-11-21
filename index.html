@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>Etch-a-Sketch</h1></div>
+        <div class="board"></div>
+        <div class="customize">
+            <div class="buttons">
+                <button onclick="changeColour('black')">Black</button>
+                <button onclick="changeColour('pink')">Erasor</button>
+                <button onclick="changeColour('rainbow')">Rainbow</button>
+                <button onclick="resetBoard()">Reset</button>
+            </div>
+            <div class="size">
+                <input type="text" placeholder="Enter Desired Size" onchange="changeSize(this.value)">
+                <button>Set</button>
+            </div>
+            <div class="error">Input must be between 1 & 100</div>
+        </div>
+    </div>
+</body>
+</html>
